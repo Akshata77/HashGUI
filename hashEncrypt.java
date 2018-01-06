@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 import java.util.Set;
-
+// new file
 public class hashEncrypt {
 
     //HashTable init
