@@ -24,6 +24,7 @@ public class hashDecrypt {
     hashDecrypt(String d, String k) {
         Dencrypt = d;
         userKey = k;
+        
         enLen = Dencrypt.length();
     }
 
