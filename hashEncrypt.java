@@ -19,6 +19,7 @@ public class hashEncrypt {
     int[] userKeyArray;
     //String conCat stores the concatination of userKeyArray
     String conCat = "";
+    //more comments
     //Int key stores the final key to genrate the hashTable
     long key;
     //String to hold the final Encrypt
@@ -27,6 +28,7 @@ public class hashEncrypt {
     //Constructor
     //@params input txt and userKey
     hashEncrypt(String ip, String userKey) {
+        
         this.ip = ip;
         System.out.println("Input: " + ip);
         this.userKey = userKey;
