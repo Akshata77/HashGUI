@@ -27,6 +27,7 @@ public class hashEncrypt {
     //Constructor
     //@params input txt and userKey
     hashEncrypt(String ip, String userKey) {
+        
         this.ip = ip;
         System.out.println("Input: " + ip);
         this.userKey = userKey;
